@@ -1,23 +1,23 @@
 import React from 'react';
-import Footer from '../components/footer';
-import Header from '../components/about/header';
-import OurStory from '../components/about/ourStory';
-import OurValue from '../components/about/ourValue';
-import WhyChooseQW from '../components/whyChooseQW';
-import BrowseFleet from '../components/about/browseFleet';
+import Footer from '../components/Footer';
+import Header from '../components/about/Header';
+import OurStory from '../components/about/OurStory';
+import OurValue from '../components/about/OurValue';
+import WhyChooseQW from '../components/WhyChooseQW';
+import BrowseFleet from '../components/about/BrowseFleet';
 
-function about() {
+function About() {
   return (
     <div>
       <div className="flex flex-col min-h-screen">
-        <main className="flex-grow">
-          <Header />
+        <Header />
 
+        <main className="flex-grow">
           <OurStory />
 
           <OurValue />
 
-          <WhyChooseQW className={""}/>
+          <WhyChooseQW className={""} />
 
           <BrowseFleet />
         </main>
@@ -28,4 +28,4 @@ function about() {
   )
 }
 
-export default about
+export default About

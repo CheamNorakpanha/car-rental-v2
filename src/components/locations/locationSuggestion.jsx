@@ -1,6 +1,6 @@
 import React from 'react';
 
-function locationSuggestion() {
+export default function LocationSuggestion() {
     return (
         <div>
             <section className="py-16">
@@ -15,5 +15,3 @@ function locationSuggestion() {
         </div>
     )
 }
-
-export default locationSuggestion

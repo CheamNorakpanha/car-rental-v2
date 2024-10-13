@@ -1,7 +1,7 @@
 import React from 'react';
 import roadBg from '../../assets/home/road_bg.png';
 
-export default function header() {
+export default function Header() {
     return (
         <div>
             <section className="text-white py-20"

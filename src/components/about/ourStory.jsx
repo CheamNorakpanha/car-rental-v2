@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function ourStory() {
+export default function OurStory() {
     return (
         <div>
             <section className="py-16">
@@ -34,5 +34,3 @@ function ourStory() {
         </div>
     )
 }
-
-export default ourStory

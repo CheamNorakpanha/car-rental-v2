@@ -1,16 +1,16 @@
 import React from 'react';
-import Footer from '../components/footer';
-import Header from '../components/home/header';
-import FeaturedCars from '../components/home/featuredCars';
-import WhyChooseUs from '../components/home/whyChooseUs';
-import FAQ from '../components/home/faq';
+import Footer from '../components/Footer';
+import Header from '../components/home/Header';
+import FeaturedCars from '../components/home/FeaturedCars';
+import WhyChooseUs from '../components/home/WhyChooseUs';
+import FAQ from '../components/home/Faq';
 
-function home() {
+function Home() {
   return (
     <div>
-      <main className="flex-grow">
-        <Header />
+      <Header />
 
+      <main className="flex-grow">
         <FeaturedCars />
 
         <WhyChooseUs />
@@ -23,4 +23,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

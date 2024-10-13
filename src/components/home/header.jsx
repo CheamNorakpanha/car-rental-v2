@@ -2,7 +2,7 @@ import React from 'react';
 import roadBg from '../../assets/home/road_bg.png';
 import { SearchIcon } from 'lucide-react';
 
-function header() {
+export default function Header() {
     return (
         <div>
             <section className="text-white py-20"
@@ -54,5 +54,3 @@ function header() {
         </div>
     )
 }
-
-export default header

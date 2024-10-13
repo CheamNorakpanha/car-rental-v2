@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircleIcon, CarIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
 
-function whyChooseQW({className}) {
+function whyChooseQW(className) {
     return (
         <div>
             <section className={`py-16 ${className}`}>

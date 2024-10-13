@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../components/cars/header';
-import Fleet from '../components/cars/fleet';
-import WhyChooseQW from '../components/whyChooseQW';
-import Footer from '../components/footer';
+import Header from '../components/cars/Header';
+import Fleet from '../components/cars/Fleet';
+import WhyChooseQW from '../components/WhyChooseQW';
+import Footer from '../components/Footer';
 
 
-function cars() {
+function Cars() {
     return (
         <div>
             <div className="flex flex-col min-h-screen">
@@ -23,4 +23,4 @@ function cars() {
     )
 }
 
-export default cars
+export default Cars

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function browseFleet() {
+export default function BrowseFleet() {
     return (
         <div>
             <section className="bg-[#FB9733] text-white py-16">
@@ -15,5 +15,3 @@ function browseFleet() {
         </div>
     )
 }
-
-export default browseFleet

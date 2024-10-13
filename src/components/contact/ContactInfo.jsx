@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapPinIcon, PhoneIcon, MailIcon, ClockIcon } from 'lucide-react';
 
-function contact() {
+export default function ContactInfo() {
     return (
         <div>
             <section className="py-16">
@@ -106,5 +106,3 @@ function contact() {
         </div>
     )
 }
-
-export default contact

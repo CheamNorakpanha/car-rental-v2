@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapPinIcon, PhoneIcon, ClockIcon } from 'lucide-react';
 
-function location() {
+export default function Location() {
     return (
         <div>
             <section className="py-16">
@@ -55,5 +55,3 @@ function location() {
         </div>
     )
 }
-
-export default location

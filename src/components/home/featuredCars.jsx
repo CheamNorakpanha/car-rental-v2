@@ -1,7 +1,7 @@
 import React from 'react';
 import { StarIcon } from 'lucide-react';
 
-function featuredCars() {
+export default function FeaturedCars() {
     return (
         <div>
             <section className="py-16">
@@ -36,5 +36,3 @@ function featuredCars() {
         </div>
     )
 }
-
-export default featuredCars

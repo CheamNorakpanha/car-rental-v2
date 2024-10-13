@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircleIcon, UserIcon, StarIcon } from 'lucide-react';
 
-function ourValue() {
+export default function OurValue() {
     return (
         <div>
             <section className="bg-gray-100 py-16">
@@ -29,5 +29,3 @@ function ourValue() {
         </div>
     )
 }
-
-export default ourValue

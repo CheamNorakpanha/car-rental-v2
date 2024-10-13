@@ -1,25 +1,27 @@
 import React from 'react';
-import Footer from '../components/footer';
-import FAQ from '../components/home/faq';
-import Header from '../components/contact/header';
-import Contact from '../components/contact/contact';
+import Footer from '../components/Footer';
+import FAQ from '../components/contact/Faq';
+import Header from '../components/contact/Header';
+import Contact from '../components/contact/ContactInfo';
 
 function contact() {
-  return (
-    <div>
-      <div className="flex flex-col min-h-screen">
-        <main className="flex-grow">
-          <Header />
+    return (
+        <div>
+            <div>
+                <div className="flex flex-col min-h-screen">
+                    <Header />
 
-          <Contact />
+                    <main className="flex-grow">
+                        <Contact />
 
-          <FAQ />
-        </main>
+                        <FAQ />
+                    </main>
 
-        <Footer />
-      </div>
-    </div>
-  )
+                    <Footer />
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default contact

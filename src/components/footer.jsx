@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function footer() {
+export default function Footer() {
     return (
         <div>
             <footer className="bg-zinc-800 text-white py-8">
@@ -54,5 +54,3 @@ function footer() {
         </div>
     )
 }
-
-export default footer

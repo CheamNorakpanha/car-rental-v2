@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FilterIcon, SearchIcon, StarIcon, UsersIcon, GaugeIcon, FuelIcon, CarIcon } from 'lucide-react';
 
-function fleet() {
+export default function Fleet() {
     return (
         <div>
             <section className="py-16">
@@ -199,10 +199,12 @@ function fleet() {
                                                     {car.transmission}
                                                 </div>
                                             </div>
-                                            <button className="w-full bg-[#FB9733] text-white p-2 rounded-md hover:bg-zinc-800 transition-colors flex items-center justify-center">
-                                                <CarIcon className="w-5 h-5 mr-2" />
-                                                Rent Now
-                                            </button>
+                                            <Link to="/rentalprocess">
+                                                <button className="w-full bg-[#FB9733] text-white p-2 rounded-md hover:bg-zinc-800 transition-colors flex items-center justify-center">
+                                                    <CarIcon className="w-5 h-5 mr-2" />
+                                                    Rent Now
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 ))}
@@ -230,12 +232,6 @@ function fleet() {
                     </div>
                 </div>
             </section>
-
-
-
-
         </div>
     )
 }
-
-export default fleet

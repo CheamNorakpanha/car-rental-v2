@@ -1,7 +1,7 @@
 import React from 'react';
 import { CircleHelp } from 'lucide-react';
 
-function faq() {
+export default function Faq() {
     return (
         <div>
             <section class="bg-white">
@@ -58,5 +58,3 @@ function faq() {
         </div>
     )
 }
-
-export default faq

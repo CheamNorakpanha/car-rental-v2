@@ -1,28 +1,28 @@
 import React from 'react';
-import Header from '../components/locations/header';
-import Location from '../components/locations/location';
-import WhyChooseQW from '../components/whyChooseQW';
-import LocationSuggestion from '../components/locations/locationSuggestion';
-import Footer from '../components/footer';
+import Header from '../components/locations/Header';
+import Location from '../components/locations/Location';
+import WhyChooseQW from '../components/WhyChooseQW';
+import LocationSuggestion from '../components/locations/LocationSuggestion';
+import Footer from '../components/Footer';
 
-function locations() {
+function Locations() {
     return (
         <div>
             <div className="flex flex-col min-h-screen">
-                <main className="flex-grow">
-                    <Header />
+                <Header />
 
+                <main className="flex-grow">
                     <Location />
 
-                    <WhyChooseQW className={"bg-gray-100"}/>
+                    <WhyChooseQW className={"bg-gray-100"} />
 
                     <LocationSuggestion />
-
-                    <Footer />
                 </main>
+
+                <Footer />
             </div>
         </div>
     )
 }
 
-export default locations
+export default Locations

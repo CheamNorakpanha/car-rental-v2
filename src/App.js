@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
-import Home from './pages/home';
-import About from './pages/about';
-import Contact from './pages/contact';
-import Cars from './pages/cars';
-import Locations from './pages/locations'
-
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Cars from './pages/Cars';
+import Locations from './pages/Locations';
+import RentalProcess from './pages/RentalProcess';
+import BookingConfirmation from './pages/BookingConfirmation';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cars" element={<Cars />} />
         <Route path="/locations" element={<Locations />} />
+        <Route path="/rentalprocess" element={<RentalProcess />} />
+        <Route path="/bookingconfirmation" element={<BookingConfirmation />} />
+        <Route path="/404page" element={<NotFound />} />
       </Routes>
     </Router>
   );
