@@ -18,10 +18,10 @@ export default function Footer() {
                                     <Link to="/" className="text-gray-400 hover:text-[#FB9733]">Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="text-gray-400 hover:text-[#FB9733]">About</Link>
+                                    <Link to="/locations" className="text-gray-400 hover:text-[#FB9733]">Locations</Link>
                                 </li>
                                 <li>
-                                    <Link to="/services" className="text-gray-400 hover:text-[#FB9733]">Services</Link>
+                                    <Link to="/about" className="text-gray-400 hover:text-[#FB9733]">About</Link>
                                 </li>
                                 <li>
                                     <Link to="/contact" className="text-gray-400 hover:text-[#FB9733]">Contact</Link>
